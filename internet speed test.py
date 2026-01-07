@@ -39,9 +39,9 @@ def check_internet_speed():
 
 speed = check_internet_speed()
 
-print(Fore.WHITE + f"⬇️ Download: {speed['download']} Mbps"),
-print(Fore.WHITE + f"⬆️ Upload: {speed['upload']} Mbps"),
-print(Fore.WHITE + f"🕛 Ping: {speed['ping']} ms"),
+print(f"⬇️ Download: {speed['download']} Mbps"),
+print(f"⬆️ Upload: {speed['upload']} Mbps"),
+print(f"🕛 Ping: {speed['ping']} ms"),
 
 # Keep the CMD window open
 input("Press Enter to exit...")
